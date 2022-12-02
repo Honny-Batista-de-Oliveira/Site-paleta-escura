@@ -5,10 +5,10 @@ body{
 }
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans:400,400i,600,600i');
 html,body{
-  margin:0;
-  height:120%;
-  font-family: 'Josefin Sans', sans-serif;
-
+	margin:0;
+	height:120%;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size:15px;
 }
 a{
   text-decoration:none
@@ -405,7 +405,15 @@ Resources
 	border:5px solid  white;
 	color:white;
 	}
-
+footer{
+	font-size:60px;
+}
+#footer-info{
+	float:left;
+}
+.container{
+	height:20vh;
+}
 .footer-clean {
   padding:50px 0;
   background-color:#fff;
@@ -431,12 +439,14 @@ Resources
   margin-top:0;
   margin-bottom:12px;
   font-weight:bold;
-  font-size:16px;
+  
 }
 form{
 	color:white;
 	width:80%;
 	margin:auto;
+	font-size:37px;
+	font-weight:bold;
 }
 #fname{
 	width:50%;
@@ -459,7 +469,6 @@ form{
   padding:0;
   list-style:none;
   line-height:1.6;
-  font-size:14px;
   margin-bottom:0;
 }
 
@@ -467,6 +476,7 @@ form{
   color:inherit;
   text-decoration:none;
   opacity:0.8;
+ 
 }
 
 .footer-clean ul a:hover {
@@ -475,6 +485,7 @@ form{
 
 .footer-clean .item.social {
   text-align:right;
+
 }
 
 @media (max-width:767px) {
@@ -521,6 +532,7 @@ form{
   .footer-clean .item.social > a {
     margin-top:10px;
   }
+  
 }
 
 .footer-clean .copyright {
