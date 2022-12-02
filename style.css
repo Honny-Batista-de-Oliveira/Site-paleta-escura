@@ -8,7 +8,7 @@ html,body{
 	margin:0;
 	height:120%;
 	font-family: 'Josefin Sans', sans-serif;
-	font-size:15px;
+	font-size:100%;
 }
 a{
   text-decoration:none
@@ -131,7 +131,6 @@ a{
   padding:5% 10%;
   text-align:justify;
   color:white;
-  font-weight:bold;
   font-family:sans-serif;
 }
 .btn{
@@ -244,7 +243,6 @@ Resources
 #presentation{
 	color:white;
 	text-align:center;
-	font-size:18px;
 	width:80%;
 	margin:20% auto 15% auto;
 	display:flex;
@@ -406,7 +404,7 @@ Resources
 	color:white;
 	}
 footer{
-	font-size:60px;
+	 font-size: 2em;
 }
 #footer-info{
 	float:left;
@@ -445,8 +443,8 @@ form{
 	color:white;
 	width:80%;
 	margin:auto;
-	font-size:37px;
-	font-weight:bold;
+	 font-size: 2em;
+	
 }
 #fname{
 	width:50%;
@@ -504,9 +502,9 @@ form{
 }
 
 .footer-clean .item.social > a {
-  font-size:24px;
-  width:40px;
-  height:40px;
+  font-size: 2em;
+  width:2em;
+  height:2em;
   line-height:40px;
   display:inline-block;
   text-align:center;
@@ -531,12 +529,13 @@ form{
 @media (max-width:767px) {
   .footer-clean .item.social > a {
     margin-top:10px;
+	font-size:2em;
   }
   
 }
 
 .footer-clean .copyright {
-  margin-top:14px;
+  margin-top:2em;
   margin-bottom:0;
   font-size:13px;
   opacity:0.6;
@@ -576,7 +575,7 @@ form{
 	 
 	 #presentation{
 		color:white;
-		font-size:60px;
+		font-size: 2em;
 		width:80%;
 		display:flex;
 		justify-content:space-between;
@@ -597,31 +596,31 @@ form{
 		font-size:40px;
 	}
 	.content{
-		font-size:50px;
+		 font-size: 2em;
 		
 	}
 	.flex-items:nth-child(1) {
 		width:49%;
 		height:20vh;
-		font-size:40px;
+		 font-size: 2em;
 		line-height:34px;
 	}
 	.flex-items:nth-child(2) {
 		width:49%;
 		height:20vh;
-		font-size:40px;
+		 font-size: 2em;
 		line-height:34px;
 	}
 	.flex-items:nth-child(3) {
 		width:49%;
 		height:20vh;
-		font-size:40px;
+		 font-size: 2em;
 		line-height:34px;
 	}
 	.flex-items:nth-child(4) {
 		width:49%;
 		height:20vh;
-		font-size:40px;
+		 font-size: 2em;
 		line-height:34px;
 	}	
 	.contain{
@@ -630,27 +629,27 @@ form{
 	}
 	.A{
 		height:15vh;
-		font-size:40px;
+		 font-size: 2em;
 		line-height:30px;
 	}
 	.B{
 		height:15vh;
-		font-size:40px;
+		 font-size: 2em;
 		line-height:30px;
 	}
 	.C{
 		height:15vh;
-		font-size:40px;
+		 font-size: 2em;
 		line-height:30px;
 	}
 	.D{
 		height:15vh;
-		font-size:40px;
+		 font-size: 2em;
 		line-height:30px;
 	}
 	#text{
-		font-size:55px;
-		font-weight:550;
+		 font-size: 1em;
+		
 	}
 }
 
